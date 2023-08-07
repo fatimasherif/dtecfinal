@@ -1,0 +1,44 @@
+#slider-container article {
+  display: grid !important;
+  width: 20rem !important;
+  margin: 2rem auto;
+}
+#slider-container {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+#slider-container.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.slick-slider .slick-arrow:before {
+  color: #333;
+  font-size: 2rem;
+}
+
+.slick-slider .slick-dots button:before {
+  font-size: 1.5rem;
+  color: teal;
+}
+
+.slick-slider .slick-dots li.slick-active button::before {
+  color: teal;
+}
+.slick-slider .slick-dots {
+  bottom: -44px;
+}
+
+.slick-slider .slick-dots li {
+  margin: 0 0.5rem;
+}
+.enwan {
+  color: rgb(255, 255, 255);
+  font-family: -apple-system;
+  font-weight: 800;
+  font-size: 30px;
+}
+.next {
+  font-size: x-large;
+}
