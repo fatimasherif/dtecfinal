@@ -5,10 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Layout from "./Layout";
 import "../../styles/FirstSlider.css";
 import { Link } from "react-router-dom";
-import background from "../../assests/background.jpg";
+
 import cctv2 from "../../assests/cctv2.jpg";
 import wireless from "../../assests/wireless.jpg";
-import dddata from "../../assests/dddata.jpg";
+
 import dd from "../../assests/dd.jpg";
 
 const FirstSlider = () => {
@@ -56,6 +56,7 @@ const FirstSlider = () => {
               <div>
                 <div>
                   <img
+                    alt="rr"
                     src={dd}
                     className="shadow-2xl drop-shadow-xl w-full  h-[455px]  p-6 rounded-lg  gap-2 transition duration-500 ease-in-out transform hover:scale-105 hover:blur-xs"
                   />
@@ -74,6 +75,7 @@ const FirstSlider = () => {
               </div>
               <div>
                 <img
+                  alt="tt"
                   src={cctv2}
                   className="shadow-2xl drop-shadow-xl w-full  p-6 rounded-lg  gap-2 transition duration-500 ease-in-out transform hover:scale-105 hover:blur-xs"
                 />

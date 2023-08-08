@@ -1,10 +1,7 @@
 import React from "react";
-import Capt from "../assests/Capt (1).png";
+
 import { Link } from "react-router-dom";
-import finals from "../assests/finals.mp4";
-import Contact from "./contact";
-import RR from "../assests/RR.png";
-import ffff from "../assests/ffff.gif";
+
 import "bootstrap/dist/css/bootstrap.css";
 import DropdownMenu from "../Components/Dropdown";
 import Partners from "../pages/Partners";

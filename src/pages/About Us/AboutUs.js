@@ -1,6 +1,5 @@
 import React from "react";
 import back from "../../assests/back.png";
-import Background from "hero-slider/dist/components/Slide/Background";
 
 const AboutUs = () => {
   return (

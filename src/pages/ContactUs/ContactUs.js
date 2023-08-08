@@ -1,14 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 
 import { FaEnvelope } from "react-icons/fa";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { Table } from "react-bootstrap";
 
 const ContactUs = () => {
   return (
     <div className=" bg-gradient-to-br from-blue-200 to-blue-600">
-      
       <div className="background">
         <div className="container-contactus">
           <div className="screen mt-[200px]">

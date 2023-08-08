@@ -2,7 +2,7 @@ import React from "react";
 import FirstSlider from "./FirstSlider";
 import SecondPage from "./SecondPage";
 import Thirdpage from "./Thirdpage";
-import Company from "../../Components/Company/Company";
+
 
 const Home = () => {
   return (

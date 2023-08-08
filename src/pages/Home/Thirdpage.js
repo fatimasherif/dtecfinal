@@ -36,7 +36,7 @@ const ThirdPage = () => {
           and environment. Every organization is unique, and we're here to help
           yours every step of the way.
         </p>
-        <img src={whatis} className="ml-[400px] animate" />
+        <img src={whatis} className="ml-[400px] animate" alt="what" />
       </div>
       <div>
         <p className="text-white text-4xl mt-[100px] mb-[30px] w-[600px] ml-[450px] p-6 font-semibold border  border-r-amber-300  shadow-2xl rounded-lg animate">
@@ -47,7 +47,11 @@ const ThirdPage = () => {
           with Telecom companies. DTEC has installed and upgraded hundreds of
           sites in the Fixed Access Network all over the country.
         </p>
-        <img src={tele} className="ml-[350px] h-[350px] w-[850px] animate" />
+        <img
+          src={tele}
+          className="ml-[350px] h-[350px] w-[850px] animate"
+          alt="what"
+        />
       </div>
     </div>
   );
