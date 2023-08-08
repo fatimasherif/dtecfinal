@@ -1,11 +1,10 @@
 import React from "react";
 import "../../styles/ContactUs.css";
-
 import { FaEnvelope } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <div className=" bg-gradient-to-br from-blue-200 to-blue-600">
+    <div className="bg-gradient-to-br from-blue-200 to-blue-600">
       <div className="background">
         <div className="container-contactus">
           <div className="screen mt-[200px]">
@@ -21,24 +20,24 @@ const ContactUs = () => {
                 <div className="screen-header-ellipsis"></div>
               </div>
             </div>
-            <div className="screen-body">
-              <div className="screen-body-item left">
+            <div className="screen-body flex flex-col md:flex-row">
+              <div className="screen-body-item left md:w-1/2">
                 <div className="app-title">
                   <span>CONTACT</span>
                   <span>US</span>
                 </div>
-                <div className="app-contact ">
-                  <span className=" font-medium">CONTACT INFO :</span>{" "}
-                  <div className=" font-medium">Tel : (+202) 24515146</div>
-                  <div className=" font-medium">Fax : (+202) 24557205</div>
-                  <div className=" font-medium">Mobile : (+2) 01144001046 </div>
-                  <div className=" font-medium">
+                <div className="app-contact">
+                  <span className="font-medium">CONTACT INFO :</span>{" "}
+                  <div className="font-medium">Tel : (+202) 24515146</div>
+                  <div className="font-medium">Fax : (+202) 24557205</div>
+                  <div className="font-medium">Mobile : (+2) 01144001046 </div>
+                  <div className="font-medium">
                     Find Us: 3 Ahmed Farid, Al Matar, El Nozha, Cairo
                     Governorate{" "}
                   </div>
                 </div>
               </div>
-              <div className="screen-body-item mr-[30px]">
+              <div className="screen-body-item mr-[30px] md:w-1/2">
                 <div className="app-form">
                   <div>
                     <span className="grid">
