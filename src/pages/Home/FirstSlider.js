@@ -12,6 +12,23 @@ import wireless from "../../assests/wireless.jpg";
 import dd from "../../assests/dd.jpg";
 
 const FirstSlider = () => {
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      slidesToSlide: 3, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 800 },
+      items: 2,
+      slidesToSlide: 2, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 800, min: 0 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+  };
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -29,7 +46,7 @@ const FirstSlider = () => {
 
   return (
     <div>
-      <Layout>
+      <Layout responsive={responsive}>
         <section>
           <div
             id="slider-container"
