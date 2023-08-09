@@ -43,30 +43,30 @@ const ThirdPage = () => {
 
   return (
     <div>
-      <div responsive={responsive}>
-        <p className="text-white text-4xl mt-[100px] mb-[30px] w-[600px] ml-[450px] p-6 font-semibold border  border-r-amber-300  shadow-2xl rounded-lg animate">
+      <div className="text-center">
+        <p className="text-white text-4xl mt-10 mb-6 px-6 font-semibold border border-r-amber-300 shadow-2xl rounded-lg animate max-w-[90%] mx-auto">
           Digital Solutions Designed for Your Business
         </p>
-        <p className="text-white w-[900px] items-center ml-[320px] text-ellipsis   text-lg animate">
-          We'll work with you to create and install NEC digital si gnage
+        <p className="text-white max-w-[90%] mx-auto text-ellipsis text-lg px-6 animate">
+          We'll work with you to create and install NEC digital signage
           solutions that perfectly match your marketing needs, target audience
           and environment. Every organization is unique, and we're here to help
           yours every step of the way.
         </p>
-        <img src={whatis} className="ml-[400px] animate" alt="what" />
+        <img src={whatis} className="mx-auto max-w-full animate" alt="what" />
       </div>
-      <div>
-        <p className="text-white text-4xl mt-[100px] mb-[30px] w-[600px] ml-[450px] p-6 font-semibold border  border-r-amber-300  shadow-2xl rounded-lg animate">
+      <div className="text-center mt-10">
+        <p className="text-white text-4xl mt-10 mb-6 px-6 font-semibold border border-r-amber-300 shadow-2xl rounded-lg animate max-w-[90%] mx-auto">
           Telecom Survey, Design and Implementation Division
         </p>
-        <p className="text-white w-[900px] items-center ml-[320px] text-ellipsis   text-lg animate">
+        <p className="text-white max-w-[90%] mx-auto text-ellipsis text-lg px-6 animate">
           DTEC is an approved contractor for the implementation many projects
           with Telecom companies. DTEC has installed and upgraded hundreds of
           sites in the Fixed Access Network all over the country.
         </p>
         <img
           src={tele}
-          className="ml-[350px] h-[350px] w-[850px] animate"
+          className="mx-auto h-auto max-w-full animate"
           alt="what"
         />
       </div>

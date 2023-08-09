@@ -12,6 +12,23 @@ import wireless from "../../assests/wireless.jpg";
 import dd from "../../assests/dd.jpg";
 
 const FirstSlider = () => {
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      slidesToSlide: 3, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 800 },
+      items: 2,
+      slidesToSlide: 2, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 800, min: 0 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+  };
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -28,7 +45,7 @@ const FirstSlider = () => {
   };
 
   return (
-    <div>
+    <div responsive={responsive}>
       <Layout>
         <section>
           <div
@@ -77,7 +94,7 @@ const FirstSlider = () => {
                 <img
                   alt="tt"
                   src={cctv2}
-                  className="shadow-2xl drop-shadow-xl w-full  p-6 rounded-lg  gap-2 transition duration-500 ease-in-out transform hover:scale-105 hover:blur-xs"
+                  className="shadow-2xl drop-shadow-xl w-full   p-6 rounded-lg  gap-2 transition duration-500 ease-in-out transform hover:scale-105 hover:blur-xs"
                 />
                 <h2 className="enwan mt-2">
                   Security Solutions, CCTV & Access Systems
