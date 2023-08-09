@@ -21,6 +21,6 @@
 
 @media (min-width: 992px) {
   .right-container {
-    width: 50%; /* 33.33% width on desktops */
+    width: 33.33%; /* 33.33% width on desktops */
   }
 }
