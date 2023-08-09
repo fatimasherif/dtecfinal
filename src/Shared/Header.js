@@ -11,7 +11,7 @@ const Header = () => {
     <div>
       <div className="header-top h-[40px] bg-gradient-to-l from-blue-800 to-blue-300 w-full mt-0 block">
         <Link to={"/contact"} className="right">
-          Contact Us{" "}
+          Contact Us
         </Link>
       </div>
       <header>
