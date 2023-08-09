@@ -8,6 +8,7 @@ const AboutUs = () => {
         style={{
           backgroundImage: `url(${back})`,
           backgroundRepeat: `no-repeat`,
+          width: "100vw",
         }}
         className="Container-up w-full  "
       >
