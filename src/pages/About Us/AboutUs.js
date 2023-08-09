@@ -24,7 +24,7 @@ const AboutUs = () => {
         <div className="col">
           <div className="right-container mr-10 w-[500px] border-8 border-blue-400 text-md font-sans my-10 pl-[30px] pt-[30px] pr-[30px] pb-[30px] ">
             <h6 className="font-bold text-3xl  text-center mb-2">Purpose</h6>
-            <p className="font-medium  pb-32">
+            <p className="font-medium  pb-14">
               DTEC operates in some of the most demanding market environments
               where product resilience and integrity are essential, in our
               pursuit of the best practice , our policy is to deliver customized
@@ -40,7 +40,7 @@ const AboutUs = () => {
         <div className="col">
           <div className="right-container border-8  border-blue-400 text-md font-sans my-10 pt-[30px] pb-[30px]">
             <h6 className="font-bold text-3xl text-center mb-2 ">Business</h6>
-            <p className="font-medium  p-14">
+            <p className="font-medium  p-6">
               DTEC core business is supplying of integrated solution, DTEC
               offers a wide range of products and customized solution to satisfy
               a variety of business needs and environments, casting a wide net
