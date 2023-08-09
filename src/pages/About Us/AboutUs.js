@@ -20,8 +20,8 @@ const AboutUs = () => {
         About The Company
       </h6>
 
-      <div className="flex   ml-44 ">
-        <div className="right-container border-8   m-10 items-center w-[40%] border-blue-400 text-md font-sans my-10 pt-[30px] pb-[30px]">
+      <div className=" ml-44 grid grid-cols-1 sm:grid-cols-2 ">
+        <div className="right-container border-8   m-10 items-center w-[70%] border-blue-400 text-md font-sans my-10 pt-[30px] pb-[30px]">
           <h6 className="font-bold text-3xl text-center mb-2 ">Purpose</h6>
           <p className="font-medium p-6">
             DTEC operates in some of the most demanding market environments
@@ -36,7 +36,7 @@ const AboutUs = () => {
           </p>
         </div>
 
-        <div className="right-container border-8 m-10 items-center w-[40%] border-blue-400 text-md font-sans my-10 pt-[30px] pb-[30px]">
+        <div className="right-container border-8 m-10 items-center w-[70%] border-blue-400 text-md font-sans my-10 pt-[30px] pb-[30px]">
           <h6 className="font-bold text-3xl text-center mb-2 ">Business</h6>
           <p className="font-medium  p-6">
             DTEC core business is supplying of integrated solution, DTEC offers
