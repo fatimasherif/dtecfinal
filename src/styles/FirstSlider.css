@@ -1,34 +1,17 @@
 #slider-container article {
   display: grid !important;
-  width: 100%;
+  width: 20rem !important;
   margin: 2rem auto;
 }
-
 #slider-container {
   opacity: 0;
   transform: translateY(-50px);
   transition: opacity 1s ease-in-out, transform 1s ease-in-out;
-  max-width: 1200px;
-  margin: auto;
 }
 
 #slider-container.show {
   opacity: 1;
   transform: translateY(0);
-}
-
-@media (min-width: 640px) {
-  #slider-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  #slider-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 .slick-slider .slick-arrow:before {
   color: #333;

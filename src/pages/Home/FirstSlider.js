@@ -6,7 +6,6 @@ import Layout from "./Layout";
 import "../../styles/FirstSlider.css";
 import { Link } from "react-router-dom";
 import "tailwindcss/tailwind.css";
-
 import cctv2 from "../../assests/cctv2.jpg";
 import wireless from "../../assests/wireless.jpg";
 
@@ -34,12 +33,15 @@ const FirstSlider = () => {
         <section>
           <div
             id="slider-container"
-            className={`w-full mx-auto mt-10 ${show ? "show" : ""}`}
+            className={`w-[85%] mx-auto mt-10 ${show ? "show" : ""}`}
           >
             <Slider {...settings}>
               <div className="relative">
                 <div>
-                  <WirelessImage className="w-full p-6 rounded-lg gap-2 transition duration-500 ease-in-out transform hover:scale-105 hover:blur-xs" />
+                  <img
+                    src={wireless}
+                    className="w-full p-6 rounded-lg gap-2 transition duration-500 ease-in-out transform hover:scale-105 hover:blur-xs"
+                  />
                 </div>
                 <h2 className="enwan mt-2">
                   Networks solutions: LAN, WAN & Wireless Solutions
@@ -53,7 +55,11 @@ const FirstSlider = () => {
               </div>
               <div>
                 <div>
-                  <DataCenterImage className="w-full h-96 p-6 rounded-lg gap-2 transition duration-500 ease-in-out transform hover:scale-105 hover:blur-xs" />
+                  <img
+                    alt="rr"
+                    src={dd}
+                    className="shadow-2xl drop-shadow-xl w-full h-[455px] p-6 rounded-lg gap-2 transition duration-500 ease-in-out transform hover:scale-105 hover:blur-xs"
+                  />
                 </div>
                 <h2 className="enwan mt-2">
                   Data Center Solutions, Data Storage & Backup Systems
@@ -68,7 +74,11 @@ const FirstSlider = () => {
                 <Link></Link>
               </div>
               <div>
-                <SecurityImage className="w-full p-6 rounded-lg gap-2 transition duration-500 ease-in-out transform hover:scale-105 hover:blur-xs" />
+                <img
+                  alt="tt"
+                  src={cctv2}
+                  className="shadow-2xl drop-shadow-xl w-full  p-6 rounded-lg  gap-2 transition duration-500 ease-in-out transform hover:scale-105 hover:blur-xs"
+                />
                 <h2 className="enwan mt-2">
                   Security Solutions, CCTV & Access Systems
                 </h2>

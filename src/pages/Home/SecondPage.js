@@ -7,23 +7,7 @@ import "../../styles/SecondPage.css";
 
 const SecondPage = () => {
   useEffect(() => {
-    const responsive = {
-      desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 3,
-        slidesToSlide: 3, // optional, default to 1.
-      },
-      tablet: {
-        breakpoint: { max: 1024, min: 800 },
-        items: 2,
-        slidesToSlide: 2, // optional, default to 1.
-      },
-      mobile: {
-        breakpoint: { max: 800, min: 0 },
-        items: 1,
-        slidesToSlide: 1, // optional, default to 1.
-      },
-    };
+    
     const elements = document.querySelectorAll(".animate");
     const windowHeight = window.innerHeight;
 
@@ -45,7 +29,7 @@ const SecondPage = () => {
   }, []);
 
   return (
-    <div responsive={responsive} className=" items-center">
+    <div className=" items-center">
       <p className=" items-center text-white text-4xl mt-[100px] mb-[30px] w-[600px] ml-[450px] p-6 font-semibold border  border-r-amber-300  shadow-2xl rounded-lg animate">
         Infrastructure and Solutions Division
       </p>
