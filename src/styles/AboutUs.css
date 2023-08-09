@@ -8,3 +8,19 @@
   opacity: 1;
   transform: translateY(0);
 }
+.right-container {
+  width: 100%; /* Full width on mobile */
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .right-container {
+    width: 50%; /* 50% width on tablets and above */
+  }
+}
+
+@media (min-width: 992px) {
+  .right-container {
+    width: 33.33%; /* 33.33% width on desktops */
+  }
+}

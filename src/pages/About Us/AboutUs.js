@@ -10,9 +10,9 @@ const AboutUs = () => {
           backgroundRepeat: `no-repeat`,
           backgroundSize: "cover",
         }}
-        className="section-up"
+        className="section-up mb-6"
       >
-        <h2 className="p-24 font-bold text-5xl text-white text-center">
+        <h2 className=" p-36  pt-40 font-bold text-5xl text-white text-center">
           WHO WE ARE?
         </h2>
       </div>
@@ -24,7 +24,7 @@ const AboutUs = () => {
         <div className="col">
           <div className="right-container mr-10 w-[500px] border-8 border-blue-400 text-md font-sans my-10 pl-[30px] pt-[30px] pr-[30px] pb-[30px] ">
             <h6 className="font-bold text-3xl  text-center mb-2">Purpose</h6>
-            <p className="font-medium">
+            <p className="font-medium  pb-32">
               DTEC operates in some of the most demanding market environments
               where product resilience and integrity are essential, in our
               pursuit of the best practice , our policy is to deliver customized
@@ -38,9 +38,9 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="col">
-          <div className="right-container w-[500px] border-8 ml-10 border-blue-400 text-md font-sans my-10 pl-[30px] pt-[30px] pr-[30px] pb-[30px]">
+          <div className="right-container border-8  border-blue-400 text-md font-sans my-10 pt-[30px] pb-[30px]">
             <h6 className="font-bold text-3xl text-center mb-2 ">Business</h6>
-            <p className="font-medium">
+            <p className="font-medium  p-14">
               DTEC core business is supplying of integrated solution, DTEC
               offers a wide range of products and customized solution to satisfy
               a variety of business needs and environments, casting a wide net
@@ -56,7 +56,7 @@ const AboutUs = () => {
               large-scale low voltage & light current systems.
             </p>
           </div>
-        </div>{" "}
+        </div>
       </div>
     </div>
   );
