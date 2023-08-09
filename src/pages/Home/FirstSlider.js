@@ -60,10 +60,10 @@ const FirstSlider = () => {
                     className="w-full p-6 rounded-lg gap-2 transition duration-500 ease-in-out transform hover:scale-105 hover:blur-xs"
                   />
                 </div>
-                <h2 className="enwan mt-2">
+                <h2 className="enwan mt-2 text-center">
                   Networks solutions: LAN, WAN & Wireless Solutions
                 </h2>
-                <p className="next text-blue-900 font-bold mb-2">
+                <p className="next text-blue-900 font-bold mb-2 text-center">
                   We will recommend the optimal LAN and WAN solution for your
                   organization through our industry-leading partners. Our
                   technical and support teams will then walk you through the

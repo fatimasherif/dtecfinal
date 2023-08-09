@@ -7,14 +7,15 @@ const AboutUs = () => {
       <div
         style={{
           backgroundImage: `url(${back})`,
+          backgroundRepeat: `no-repeat`,
         }}
         className="Container-up w-full  "
       >
-        <h2 className=" p-24  w-full  font-bold   mt-10  text-5xl text-white text-center">
+        <h2 className=" p-24  w-full  font-bold     text-5xl text-white text-center">
           WHO WE ARE?
         </h2>
       </div>
-      <h6 className="  text-5xl mt-6 bg-gradient-to-r from-yellow-600 to-indigo-800 bg-clip-text  text-transparent">
+      <h6 className="  text-center text-5xl bg-gradient-to-r from-yellow-600 to-indigo-800 bg-clip-text  text-transparent">
         About The Company
       </h6>
       <div className="flex  ml-56 p-10">
