@@ -45,8 +45,8 @@ const SecondPage = () => {
   }, []);
 
   return (
-    <div className="items-center">
-      <p className="text-white text-4xl mt-10 mb-6 px-6 font-semibold border border-r-amber-300 shadow-2xl rounded-lg animate">
+    <div className="items-center text-center">
+      <p className="text-white text-4xl mt-10 mb-6 px-6 font-semibold border border-r-amber-300 shadow-2xl rounded-lg animate max-w-[90%] mx-auto">
         Infrastructure and Solutions Division
       </p>
       <div>
@@ -66,12 +66,11 @@ const SecondPage = () => {
         </p>
       </div>
 
-      <div className="images-container grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-[90%] mx-auto mt-10 mb-10">
-        <img src={rackrack} className="h-auto max-w-full animate" alt="Ll" />
-
-        <img src={it} className="h-auto max-w-full animate" alt="dd " />
-        <img src={rackss} className="h-auto max-w-full animate" alt="rr" />
-        <img src={fibers} className="h-auto max-w-full animate" alt="ff" />
+      <div className="images-container grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-[100%] mx-auto mt-10 mb-10">
+        <img src={rackrack} className="h-full max-w-full animate" alt="Ll" />
+        <img src={it} className="h-full max-w-full animate" alt="dd " />
+        <img src={rackss} className="h-full max-w-full animate" alt="rr" />
+        <img src={fibers} className="h-full max-w-full animate" alt="ff" />
       </div>
     </div>
   );
