@@ -3,7 +3,7 @@ import back from "../../assests/back.png";
 
 const AboutUs = () => {
   return (
-    <div className="container">
+    <div>
       <div
         style={{
           backgroundImage: `url(${back})`,
